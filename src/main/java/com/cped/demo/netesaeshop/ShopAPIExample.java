@@ -64,6 +64,6 @@ public class ShopAPIExample implements ShopAPI {
 
     @Override
     public void jsonError(ItemResponse itemResponse, Player player) {
-        DemoShop.getInstance().getLogger().severe("处理JSON时发生错误，玩家: " + player.getName() + "，订单ID: " + itemResponse.getEntities().get(0).getOrderid());
+        DemoShop.getInstance().getLogger().severe("处理JSON时发生错误，玩家: " + player.getName());
     }
 }
