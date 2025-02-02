@@ -1,0 +1,4 @@
+name: DemoNeteaseShop
+version: '1.0'
+main: com.cped.demo.netesaeshop.DemoShop
+authors: ["ShaoqingG"]
